@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="cloudicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather Application</title>
+</head>
+<body>
+    <div class="mainbox">
+        <h2>Weather Updates</h2>
+        <br>
+        <div class="container">
+            <input id="task-input" type="text" placeholder="Enter the city">
+            <button id="addbtn">Check</button>
+            <div class="items">
+                <h2 id="cityname"></h2>
+                <br>
+                <p id="temp"></p><br>
+                <p id="desc"></p><br>
+                <p id="wind"></p>
+            </div>
+        </div>
+        <br>
+        <p id="ermsg" class="errmsg hide">Please enter a valid city</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
